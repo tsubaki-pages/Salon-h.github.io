@@ -1,0 +1,243 @@
+@charset "utf-8";
+
+
+body{
+  font-family: 'Ayuthaya','B612 Mono', monospace,'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic';
+  margin: 0 auto;
+  background: #67E873;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+/* header st---------------------------------------------------------- */
+header{
+  display: flex;
+} 
+
+.logo{
+  margin-top: 26px;
+  margin-left: 134px;
+}
+
+.nav{
+  margin-right: 134px;
+}
+
+nav{
+  margin-left: auto;
+  margin-top: 64px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav a{
+  width: 100px;
+  text-align: center;
+  line-height: 64px;
+  display: block;
+}
+
+
+/* header  ---------------------------------------------------------- */
+
+
+/* main ---------------------------------------------------------- */
+
+.middle_area{
+  width: 83.33%;
+  max-width: 1080px;
+  margin: 0 auto;
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container{
+  background: white;
+  border-radius: 15px;
+  flex-basis: 31%;
+  position: relative;
+}
+
+.middle_title{
+
+  text-align: center;
+  padding: 17px 0px;
+}
+
+.middle_text{
+  padding: 20px;
+  font-size: 1.1rem;
+  color: #442413;
+  margin-bottom: 45px;
+  line-height: 30px;
+}
+
+.middle_more{
+  display: block;
+  text-align: center;
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+}
+
+
+/* access area ---------------------------------------------------------- */
+
+.access_image_area{
+  margin-top: 74px;
+  text-align: center;
+}
+
+.access_text_area{
+  width: 83.33%;
+  max-width: 1080px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  color: #ffffff;
+  position: relative;
+  display: flex;
+
+}
+
+.access_text_left {
+  float: left;
+  width: 50%;
+  padding-right: 20px;
+}
+
+.access_text_right { 
+  float: right;
+  width:  50%; 
+  padding-left: 20px;
+  
+}
+
+.access_text_title {
+  text-align: center;
+  margin-bottom: 7px;
+  background: #fff;
+  color: #442413;
+  border-radius: 10px;
+}
+
+.access_text_deta {
+  font-size: 1.3rem;
+  padding-bottom: 30px;
+}
+
+
+/* reservation area st----------------------------- */
+.reservation_area {
+  width: 83.33%;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.reservation_logo {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.reservation_text_area {
+	text-align: center;
+  justify-content: center;
+}
+
+.reservation_box{
+  margin: 0 auto;
+  margin-top: 50px;
+  padding-top: 40px;
+  padding-bottom: 80px;
+  color: #ffffff;
+  display: flex;
+}
+
+.reservation_text_a,.reservation_text_b {
+	color: #ffffff;
+	padding: 10px 10px 0;
+	font-size: 1.3rem;
+}
+
+.reservation_text_a {
+	margin-top: 10px;
+}
+
+.reservation_text_b {
+	margin-bottom: 40px;
+}
+
+.reservation_tel {
+  width: 50%;
+  float: left;
+  padding-left: 80px;
+  text-align: center;
+}
+
+.reservation_tel p {
+  border-radius: 15px;
+  width: 250px;
+  padding: 15px 0;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+.reservation_hot {
+  width: 50%;
+  float: right;
+  padding-right: 80px;
+  text-align: center;
+}
+
+.reservation_hot p {
+  
+  border-radius: 15px;
+  width: 250px;
+  padding: 15px 0;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+.reservation_hot a:hover p ,.reservation_tel a:hover p {
+  background-color: #442413;
+  color: #ffffff;
+}
+
+
+
+/* footer ---------------------------------------------------------- */
+
+footer {
+  text-align: center;
+  color: #ffffff;
+  margin: 0 auto;
+}
+
+hr {
+  background-color: #ffffff;
+  height: 1px;
+  border: 0;
+}
+
+.page_top{
+  margin-bottom: 50px;
+}
+
+.copyright{
+  margin: 20px;
+  font-size: 4px
+}
